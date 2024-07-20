@@ -1,0 +1,22 @@
+{
+  "name": "videos-api",
+  "version": "1.0.0",
+  "description": "node-do-zero",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --trace-warnings server.js",
+    "dev": "node --watch --no-warnings server.js"
+  },
+  "keywords": [
+    "rocketseat"
+  ],
+  "author": "Leonidas Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "postgres": "^3.4.4"
+  }
+}

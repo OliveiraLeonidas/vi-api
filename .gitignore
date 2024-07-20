@@ -1,0 +1,8 @@
+#dependencias node
+node_modules/
+
+#variaveis ambiente
+.env
+
+# arquivos de banco de dados em memória
+./database-memory.js
