@@ -5,4 +5,4 @@ node_modules/
 .env
 
 # arquivos de banco de dados em memória
-./database-memory.js
+.database-memory.js
